@@ -39,7 +39,7 @@ function desencriptar() {
 }
 
 function copy() {
-  const str = document.getElementById("inputText").value.toLowerCase();
+  // let str = document.getElementById("inputText").value.toLowerCase();
   let contenido = document.querySelector("textArea");
   contenido.select();
   document.execCommand("cut");

@@ -19,9 +19,7 @@
       <aside class="right">
         <img src="../assets/Muñeco.svg" alt="muneco" id="NotFoundIMG" />
         <h1 id="NotFoundText">Ningun Mensaje fue encontrado</h1>
-        <textarea id="textArea" name="" cols="8" rows="8">
-            Ingrese el texto que desea encriptar
-        </textarea>
+        <textarea id="textArea" name="" cols="8" rows="8">Ingrese el texto que desea encriptar</textarea>
         <button
           id="copiar"
           type="button"
@@ -33,14 +31,18 @@
         </button>
       </aside>
       <section class="left-button">
-        <img src="../assets/i.svg" alt="" />
-        <p>Solo letras minusculas y sin acentos</p>
-        <button type="button" class="btn-encrypt" onclick="encriptar()">
-          Encriptar
-        </button>
-        <button type="button" class="btn-deencrypt" onclick="desencriptar()">
-          Desencriptar
-        </button>
+        <div class="upper-btn">
+          <img src="../assets/i.svg" alt="" />
+          <p>Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="buttom-btn">
+          <button type="button" class="btn-encrypt" onclick="encriptar()">
+            Encriptar
+          </button>
+          <button type="button" class="btn-deencrypt" onclick="desencriptar()">
+            Desencriptar
+          </button>
+        </div>
       </section>
     </main>
   </body>
